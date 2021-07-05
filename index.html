@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Harikrishnan</title>
+   <link rel="icon" href="images/profilepic.jpg" type="image/icon type">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+ 
+
+
+</head>
+
+<body>
+   <div>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li><a class="smoothscroll" href="#home">Home</a></li>
+            <li ><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#skills">Skills</a></li>
+	         <li><a class="smoothscroll" href="#education">Education</a></li>    
+            <li><a class="smoothscroll" href="#projects">Projects</a></li>   
+            
+         </ul> 
+
+      </nav> 
+
+      <div class="row banner ">
+         <div class="banner-text">
+
+            <h1 class="responsive-headline">I'm Harikrishnan P P.</h1>
+            <div class="typewriter">
+            <h3 class="typewriter-text">Front End Developer</h3>
+            </div>
+            <ul class="social">
+              
+               <li><a href="https://twitter.com/hknp796" target="_blank"><i class="fa fa-twitter"></i></a></li>
+           
+               <li><a href="https://www.linkedin.com/in/harikrishnan-p-p-699b55150/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               
+               <li><a href="https://github.com/hknp796" target="_blank"><i class="fa fa-github"></i></a></li>
+               
+            </ul>
+         </div>
+      </div>
+
+      
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p style="color:white">
+              &emsp;<b>I</b> am a Front End Developer <br>&emsp;and love to design and develope web pages <br> &emsp;and other web applications.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="contact" style="color:white">
+						   &emsp;<span>Harikrishnan P P</span><br>
+						   
+						   &emsp;<span>Ph: +919496652881</span><br>
+                     &emsp;<span>Email: hknp796@gmail.com</span><br>
+                     &emsp;<span>Place: Calicut</span>
+					   </p>
+
+               </div>
+
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+   <section id="skills">
+      <div class="row skill">
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+         <div class="nine columns main-col">
+           
+				<div class="bars">
+
+				   <ul class="skills">
+                  <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+						<li><span class="bar-expand css"></span><em>CSS3</em></li>
+						
+                  <li><span class="bar-expand javascript"></span><em>Javascript</em></li>
+                  <li><span class="bar-expand react"></span><em>React</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+   <section id="education">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education container-flow" >
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Bachelor of Technology</h3>
+                  <p class="info"></p>
+
+                  <p>
+                     Graduate in Mechanical Engineering from MG University &bull;<em>2018</em>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+      </section>
+
+     
+
+      
+        
+   
+
+   <!-- Portfolio Section
+   ================================================== -->
+ 
+
+   <!-- Java Script
+   ================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<footer>
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
+            </ul>
+</footer>
+</div>
+</body>
+
+</html>
